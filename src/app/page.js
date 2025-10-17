@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image src={esulogo} width={300} height={300} alt={"esu1"} />
+        <Image src={esulogo} width={800} height={500} alt={"esu1"} />
         <h2>Coming Soon</h2>
         <h1>Eduardo Strauch Art</h1>
         <Button />
