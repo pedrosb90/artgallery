@@ -133,28 +133,30 @@ a.secondary {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 780px) {
   .page {
-    padding: 32px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
+    max-width: 100vw;
   }
 
   .main {
     align-items: center;
+    max-width: 100vw;
   }
 
   .main ol {
     text-align: center;
+    max-width: 100vw;
   }
 
   .ctas {
     flex-direction: column;
+    max-width: 100vw;
   }
 
   .ctas a {
     font-size: 14px;
     height: 40px;
-    padding: 0 16px;
   }
 
   a.secondary {
@@ -165,6 +167,7 @@ a.secondary {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    max-width: 100vw;
   }
 }
 
